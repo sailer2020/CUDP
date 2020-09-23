@@ -1,0 +1,29 @@
+Prerequisites
+=============
+
+- Python 3
+  $ apt install python3-pip
+  $ pip3 install -r requirements.txt
+
+- Gradle & JDK (to build CLAMI from source)
+  $ apt install gradle default-jdk
+
+- Weka
+  $ apt install weka
+
+- R
+  $ apt install r-base-dev
+  > install.packages('e1071')
+  > install.packages('cclust')
+  > install.packages('cluster')
+  > install.packages('klaR')
+  > install.packages('subspace')
+  > install.packages('factoextra')
+  > install.packages('FactoMineR')
+
+
+Get started
+===========
+
+  $ chmod +x feature.py
+  $ ./feature.py /path/to/your/datasets/*.csv
